@@ -1,7 +1,8 @@
 import java.util.Collections;
 import java.util.PriorityQueue;
+public class LC_2144_Minimum_Cost {
 
-class Solution {
+
     public int minimumCost(int[] cost) {
         int ans = 0;
         PriorityQueue<Integer> pq = new PriorityQueue<>(Collections.reverseOrder());
